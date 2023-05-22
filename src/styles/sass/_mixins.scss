@@ -1,0 +1,28 @@
+@import "./variables";
+
+@mixin sectionTitle {
+  margin: 0;
+  font-family: "TTFirsNeue";
+  font-size: 24px;
+  line-height: 31px;
+}
+
+@mixin btn {
+  padding: 13px 21px;
+  font-size: 16px;
+  line-height: 19px;
+  color: $whiteColor;
+  background-color: $orangeColor;
+  border: 3px solid $orangeColor;
+}
+
+@mixin hash {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 7px 14px;
+    font-size: 14px;
+    line-height: 16px;
+    color: $whiteColor;
+    background-color: $darkBgcolor;
+}
